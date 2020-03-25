@@ -1,15 +1,13 @@
 import pyautogui
 import time
-from pynput.keyboard import Key, Controller
+from pynput.keyboard import Controller
 from settings import *
 
+starting = True
 
-def settingsInput():
-    time.sleep(wait_time)
+
+def settingsInput ():
     keyboard = Controller()
-    keyboard.type("CRACKED-89712-XNO00-80YPP-3X6MD-TO")
-    time.sleep(wait_time)
-    pyautogui.hotkey("enter")
     time.sleep(wait_time)
     keyboard.type(threads)
     pyautogui.hotkey("enter")
