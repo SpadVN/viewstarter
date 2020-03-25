@@ -1,5 +1,5 @@
 import checkifprocessrunning
-from Telegram import t
+from telegrambot import t
 
 
 t.start()
