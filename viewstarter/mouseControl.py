@@ -7,6 +7,7 @@ def openAccountTXT():
     mouse.position = coordFile
     mouse.click(Button.left, 2)
 
+
 def windowRef():
     mouse = Controller()
     mouse.position = coordRef
